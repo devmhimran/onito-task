@@ -88,10 +88,12 @@ function App() {
             {
               data.map(tableData => 
                 <tr>
+
                   <td>{tableData.date}</td>
                   <td>{tableData.amount}</td>
                   <td>{tableData.payment}</td>
                   <td>{tableData.remark}</td>
+                  
                 </tr>
               )
             }
